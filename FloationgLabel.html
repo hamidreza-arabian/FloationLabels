@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="output.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="h-screen flex items-center justify-center bg-sky-200">
+    <div class="w-3/12 h-4/5 rounded-xl bg-white shadow-lg">
+      <svg class="rounded-xl" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="rgb(2 132 199)" fill-opacity="1"
+          d="M0,288L34.3,256C68.6,224,137,160,206,154.7C274.3,149,343,203,411,240C480,277,549,299,617,309.3C685.7,320,754,320,823,266.7C891.4,213,960,107,1029,69.3C1097.1,32,1166,64,1234,106.7C1302.9,149,1371,203,1406,229.3L1440,256L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z">
+        </path>
+      </svg>
+      <div class="px-10 my-10">
+        <span class="block text-center font-bold text-lg">Welcome back!</span>
+        <form action="" class="mt-12">
+          <div class="relative">
+            <input 
+              autocomplete="off"
+              name="email"
+              id="email"
+              type="text" 
+              placeholder="Email address"
+              class="peer h10 border-b-2 border-gray-300 w-full pb-2
+              placeholder-transparent
+              focus:outline-none focus:border-sky-600" 
+            />
+            <label  for="email" 
+              class="
+              transition-all
+              peer-placeholder-shown:text-base
+              peer-placeholder-shown:text-gray-400
+              peer-placeholder-shown:top-0
+              peer-focus:text-gray-700
+              peer-focus:-top-5
+              peer-focus:text-sm
+              absolute left-0 -top-5 text-sm text-gray-700"
+            >Email address</label>
+
+          </div>
+          <div class="mt-10 relative">
+            <input 
+              type="password" 
+              name="password" 
+              id="password" 
+              placeholder="Password" 
+              class="h10 peer border-b-2 placeholder-transparent border-gray-300 w-full
+              focus:outline-none focus:border-sky-600"
+            />
+            <label  for="password" 
+              class="
+              transition-all
+              peer-placeholder-shown:text-base
+              peer-placeholder-shown:text-gray-400
+              peer-placeholder-shown:top-0
+              peer-focus:text-gray-700
+              peer-focus:-top-5
+              peer-focus:text-sm
+              absolute left-0 -top-5 text-sm text-gray-700"
+            >Password</label>
+          </div>
+            
+          <button
+            class="block h-10 w-full bg-sky-600 mt-32 text-white border-b-4 
+                 border-sky-800 hover:border-sky-700 rounded"
+            type="submit">Sign in</button>
+          <span class="cursor-pointer	 text-sm text-sky-600 block text-center mt-4">Forgot your password?</span>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
